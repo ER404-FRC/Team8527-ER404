@@ -2,4 +2,4 @@
 
 FRC Team CAD, code, and website
 
-###### Contributors: Abheek Dhawan, Aditya Jain
+#### Contributors: Abheek Dhawan, Aditya Jain

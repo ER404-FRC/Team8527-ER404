@@ -2,11 +2,12 @@ html {
     background-image: url(images/background.png);
     background-repeat: no-repeat;
     background-attachment: fixed;
-    background-size: 100%;
+    background-size: cover;
     background-color: lightgray;
 }
 
 .nav {
+    width: 90%;
     position: -webkit-sticky;
     position: sticky;
     top: 0;

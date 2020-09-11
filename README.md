@@ -20,4 +20,6 @@ Currently, the languages we are using for our website are:
 - [ ] PHP
 
 ### CAD
+We haven't started working on CAD yet, because the season hasn't officially started, but we hope to add it soon!
+
 #### Contributors: Abheek Dhawan, Aditya Jain

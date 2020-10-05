@@ -12,6 +12,8 @@ html {
     top: 0;
     background-color: #003366;
     overflow: hidden;
+    border-bottom: 1px solid black;
+    box-shadow: 0 6px 2px -2px rgb(0, 0, 0, 0.2);
 }
 
 .nav a {

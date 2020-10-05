@@ -41,10 +41,7 @@ html {
     font-size: 96px;
 }
 
-form {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 20%;
-    width: 50%;
+.opening {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
 }

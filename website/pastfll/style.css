@@ -40,19 +40,8 @@ html {
 .title {
     font-size: 96px;
 }
-.top {
+
+.opening {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     text-align: center;
-}
-
-.subtitle {
-    color: gray;
-}
-
-img {
-    width: 100%;
-    display: block;
-    float: top;
-    border-color: #003366;
-    border-style: solid;
 }

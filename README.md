@@ -7,7 +7,7 @@ FRC Team CAD, code, and website
 We are a first-time FRC team hoping to learn the ropes of the new competition. However, many of us participated in FLL, so we hope that this will give us some sort of prior experience.
 
 ### Website
-We are hosting our website on Arch Linux server running Apache. To learn more, please visit apache.org and archlinux.org.
+We are hosting our website using Apache on a machine running Ubuntu Server. To learn more, please visit apache.org and ubuntu.com.
 
 >**For privacy reasons, we are not posting the original pictures on GitHub.**
 

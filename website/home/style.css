@@ -6,6 +6,11 @@ html {
     background-color: lightgray;
 }
 
+.column img:hover {
+    width: 110%;
+    transition: width 1s;
+}
+
 .nav {
     position: -webkit-sticky;
     position: sticky;

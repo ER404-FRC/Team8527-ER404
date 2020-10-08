@@ -1,4 +1,5 @@
 html {
+    font-family: 'Ubuntu', sans-serif;
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
@@ -28,7 +29,6 @@ html {
 }
 
 .nav a {
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-weight: bold;
     float: right;
     display: block;
@@ -51,7 +51,6 @@ html {
     font-size: 96px;
 }
 .top {
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     text-align: center;
 }
 

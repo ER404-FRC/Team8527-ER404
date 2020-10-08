@@ -16,13 +16,27 @@ html {
     box-shadow: 0 6px 2px -2px rgb(0, 0, 0, 0.2);
 }
 
+
+
+@media only screen and (max-width: 1000px) {
+    .nav a {
+        font-size: 14px;
+    }
+}
+
+@media only screen and (min-width: 1000px) {
+    .nav a {
+        font-size: 24px;
+    }
+}
+
+
 .nav a {
     font-weight: bold;
     float: right;
     display: block;
     color: #ffffff;
     padding: 14px 16px;
-    font-size: 24px;
 }
 
 .nav a:hover {

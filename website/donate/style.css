@@ -1,4 +1,5 @@
 html {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     background-image: url(images/background.png);
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -17,7 +18,6 @@ html {
 }
 
 .nav a {
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-weight: bold;
     float: right;
     display: block;
@@ -39,6 +39,35 @@ html {
 
 .title {
     font-size: 96px;
+}
+
+.sponsortext {
+    text-align: center;
+    margin: 0 auto;
+    max-width: 1000px;
+}
+
+.sponsortext h1 {
+    font-weight: bold;
+    font-size: 40px;
+}
+
+.sponsortext p {
+    margin-bottom: 50px;
+}
+
+.sponsorshipdetails {
+    text-decoration: none;
+    box-sizing: border-box;
+    cursor: pointer;
+    background-color: #003366;
+    color: white;
+    width: 380px;
+    padding: 20px 0;
+    margin: 0 auto;
+    text-align: center;
+    border: 2px solid black;
+
 }
 
 form {

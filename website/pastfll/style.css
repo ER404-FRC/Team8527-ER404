@@ -20,7 +20,7 @@ html {
 
 @media only screen and (max-width: 1000px) {
     .nav a {
-        font-size: 14px;
+        font-size: 13px;
     }
 }
 
@@ -32,8 +32,8 @@ html {
 
 
 .nav a {
-    font-weight: bold;
     float: right;
+    font-weight: bold;
     display: block;
     color: #ffffff;
     padding: 14px 16px;

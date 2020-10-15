@@ -32,6 +32,8 @@ html {
 
 
 .nav a {
+    font-family: 'Ubuntu', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: bold;
     float: right;
     font-weight: bold;
     display: block;
@@ -55,5 +57,7 @@ html {
 }
 
 .opening {
+
+    font-family: 'Ubuntu', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     text-align: center;
 }

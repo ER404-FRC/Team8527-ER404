@@ -8,8 +8,8 @@ html {
 }
 
 .column img:hover {
-    width: 110%;
-    transition: width 1s;
+    width: 101%;
+    transition: width 0.2s;
 }
 
 .nav {

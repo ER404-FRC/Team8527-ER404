@@ -9,7 +9,7 @@ html {
 
 .column img:hover {
     width: 101%;
-    transition: width 0.2s;
+    transition: width 0.3s;
 }
 
 .nav {

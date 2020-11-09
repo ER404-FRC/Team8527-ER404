@@ -84,3 +84,9 @@ html {
 .about_us_section img {
     border-radius: 20px;
 }
+
+img {
+    max-width: 255px;
+    max-height: 255px;
+    overflow: hidden;
+}

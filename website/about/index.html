@@ -1,80 +1,200 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" class="has-navbar-fixed-top">
 <head>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="/bulmaswatch.min.css">
     <link rel="icon" href="favicon.png">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>About Us | ER404</title>
+    <meta name="description" content="The official website for the ER404 FRC Team!">
+    <meta name="image" content="favicon.png">
+    <title>FRC 2021 | ER404</title>
 </head>
-<header class="nav">
-	<a href="../about" class="active">ABOUT US</a>
-	<a href="../sponsorship">SPONSORSHIP</a> 
-	<a href="../home">HOME</a>
-</header>
-<body>
-    <h1 class="title top">About Us</h1>
-    <div class="about_us_wrapper">
-        <div class="about_us_section">
-            <img src="images/abheek.png">
-            <h1>Abheek Dhawan</h1>
-            <p>Is the awesomest.
-            </p>
+<nav class="navbar is-fixed-top has-shadow" role="navigation" aria-label="main navigation">
+  <div class="navbar-brand">
+    <a class="navbar-item" href="/home">
+      <img src="favicon.png" width="36" height="36">
+    </a>
+    <a role="button" class="navbar-burger burger" aria-label="menu" aria-expanded="false" data-target="navMenu">
+      <span aria-hidden="true"></span>
+      <span aria-hidden="true"></span>
+      <span aria-hidden="true"></span>
+    </a>
+  </div>
+  <div id="navMenu" class="navbar-menu">
+    <div class="navbar-start">
+      <a class="navbar-item" href="/home">
+        Home
+      </a>
+
+      <a class="navbar-item" href="/sponsorship">
+        Sponsorships
+      </a>
+
+      <div class="navbar-item has-dropdown is-hoverable">
+        <a class="navbar-link">
+          About
+        </a>
+
+        <div class="navbar-dropdown">
+          <a class="navbar-item" href="/about">
+            Our Team
+          </a>
+          <a class="navbar-item">
+            FLL
+          </a>
+          <a class="navbar-item">
+            Donations
+          </a>
+          <hr class="navbar-divider">
+          <a target="_blank" class="navbar-item" href="https://github.com/ER404-FRC/ER404/issues">
+            Report an issue
+          </a>
         </div>
-        <div class="about_us_section">
-            <img src="images/aditya.png">
-            <h1>Aditya Jain</h1>
-            <p>Aditya loves math, science, coding, and cricket. More often than not you can find him guilty snacking in the pantry.
-            </p>        
-            </div>
-        <div class="about_us_section">
-            <img src="images/alison.png">
-            <h1>Alison Nieder</h1>
-            <p>Alison is a freshman at Ladue High School. She enjoys baking, percussion, photography, rock climbing and rowing.
-	    </p>        
-            </div>
-        <div class="about_us_section">
-            <img src="images/aric.png">
-            <h1>Aric Wang</h1>
-            <p>Aric’s favorite subjects are geography, math, and science. In his free time, he enjoys drawing, playing the piano, and top fragging in val. A fun fact about him is that he knows the capital of every country in the world.
-	    </p>        
-            </div>
-        <div class="about_us_section">
-            <img src="images/claudia.png">
-            <h1>Claudia Kramer</h1>
-            <p>Claudia is a freshman this year at ladue, and she loves to hang out with friends and rock climbing. She also loves reptiles, and is really enjoying FRC.
-	    </p>        
-            </div>
-        <div class="about_us_section">
-            <img src="images/kevin.png">
-            <h1>Kevin Tang</h1>
-            <p>Kevin is a freshman at Ladue High School, and his favorite subjects are math, science, and computer science. In his free time, he enjoys programming and playing the violin.
-	    </p>        
-            </div>
-        <div class="about_us_section">
-            <img src="images/matthew.png">
-            <h1>Matthew Awad</h1>
-            <p>Matthew’s favorite subjects are math, science and social studies. In his free time, he enjoys hanging out with friends, riding his bike, and annoying his little sister.
-	    </p>        
-            </div>
-        <div class="about_us_section">
-            <img src="images/rohan.png">
-            <h1>Rohan Suri</h1>
-            <p>Rohan is an alien from the planet Rohia. He looks very interesting and likes to eat cookies and read books. He also can be smart at times. 
-	    </p>        
-            </div>
-        <div class="about_us_section">
-            <img src="images/sanjay.png">
-            <h1>Sanjay Calfee</h1>
-            <p>Sanjay likes many things. Like pizza, tennis and video games. (But to be honest, video games aren’t his forte) 
-	    </p>        
-            </div>
-        <div class="about_us_section">
-            <img src="images/weston.png">
-            <h1>Weston Williams</h1>
-            <p>Weston is currently a freshman at Ladue High School. He’s a pretty intelligent guy.
-	    </p>        
-            </div>
+      </div>
     </div>
+    <div class="navbar-end">
+      <div class="navbar-item">
+        <div class="buttons">
+          <a target="_blank" class="button" href="https://github.com/ER404-FRC/ER404">
+            <i class="fab fa-github"></i>
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+</nav>
+<body>
+  <div class="section">
+    <h1 class="title is-1">Our Team</h1>
+  </div>
+  <div class="section">
+    <div class="columns">
+      <div class="column box has-text-centered">
+        <p class="title">Abheek Dhawan</p>
+        <figure class="image">
+            <img src="images/abheek.png" alt="">
+        </figure>
+        <p class="is-size-5">Is the awesomest</p>
+      </div>
+      <div class="column box has-text-centered">
+        <p class="title">Aditya Jain</p>
+        <figure class="image">
+            <img src="images/aditya.png" alt="">
+        </figure>
+        <p class="is-size-5">Aditya loves math, science, coding,
+           and cricket. More often than not 
+           you can find him guilty snacking 
+           in the pantry.
+        </p>
+      </div>
+    </div>
+    <div class="columns">
+      <div class="column box has-text-centered">
+        <p class="title">Alison Nieder</p>
+        <figure class="image">
+            <img src="images/alison.png" alt="">
+        </figure>
+        <p class="is-size-5">Alison is a freshman at Ladue 
+          High School. She enjoys baking, 
+          percussion, photography, rock 
+          climbing and rowing.
+       </p>
+      </div>
+      <div class="column box has-text-centered">
+        <p class="title">Aric Wang</p>
+        <figure class="image">
+            <img src="images/aric.png" alt="">
+        </figure>
+        <p class="is-size-5">Aric’s favorite subjects are 
+          geography, math, and science. 
+          In his free time, he enjoys 
+          drawing, playing the piano, 
+          and top fragging in val. A 
+          fun fact about him is that 
+          he knows the capital of every 
+          country in the world.
+        </p>
+      </div>
+    </div>
+    <div class="columns">
+      <div class="column box has-text-centered">
+        <p class="title">Claudia Kramer</p>
+        <figure class="image">
+            <img src="images/claudia.png" alt="">
+        </figure>
+        <p class="is-size-5">Claudia is a freshman this 
+          year at Ladue, and she loves 
+          to hang out with friends and 
+          rock climbing. She also loves 
+          reptiles, and is really enjoying 
+          FRC.
+        </p>
+      </div>
+      <div class="column box has-text-centered">
+        <p class="title">Kevin Tang</p>
+        <figure class="image">
+            <img src="images/kevin.png" alt="">
+        </figure>
+        <p class="is-size-5">Kevin is a freshman at Ladue 
+          High School, and his favorite 
+          subjects are math, science, and 
+          computer science. In his free 
+          time, he enjoys programming and 
+          playing the violin.
+        </p>
+      </div>
+    </div>
+    <div class="columns">
+      <div class="column box has-text-centered">
+        <p class="title">Matthew Awad</p>
+        <figure class="image">
+            <img src="images/matthew.png" alt="">
+        </figure>
+        <p class="is-size-5">Matthew’s favorite subjects 
+          are math, science and social 
+          studies. In his free time, he 
+          enjoys hanging out with friends, 
+          riding his bike, and annoying his 
+          little sister.
+        </p>
+      </div>
+      <div class="column box has-text-centered">
+        <p class="title">Rohan Suri</p>
+        <figure class="image">
+            <img src="images/rohan.png" alt="">
+        </figure>
+        <p class="is-size-5">Rohan is an alien from the 
+          planet Rohia. He looks very 
+          interesting and likes to eat 
+          cookies and read books. He 
+          also can be smart at times. 
+        </p>
+      </div>
+    </div>
+    <div class="columns">
+      <div class="column box has-text-centered">
+        <p class="title">Sanjay Calfee</p>
+        <figure class="image">
+            <img src="images/sanjay.png" alt="">
+        </figure>
+        <p class="is-size-5">Sanjay likes many things. 
+          Like pizza, tennis and video 
+          games. (But to be honest, 
+          video games aren’t his forte) </p>
+      </div>
+      <div class="column box has-text-centered">
+        <p class="title">Weston Williams</p>
+        <figure class="image">
+            <img src="images/weston.png" alt="">
+        </figure>
+        <p class="is-size-5">Weston is currently a freshman 
+          at Ladue High School. He’s a 
+          pretty intelligent guy.
+        </p>
+      </div>
+    </div>
+  </div>
+  <script src="/all.js"></script>
+  <script src="/hamburger.js"></script>
 </body>
 </html>

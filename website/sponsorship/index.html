@@ -1,58 +1,124 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" class="has-navbar-fixed-top">
+
 <head>
-  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="/bulmaswatch.min.css">
   <link rel="icon" href="favicon.png">
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Sponsorship | ER404</title>
+  <meta name="description" content="The official website for the ER404 FRC Team!">
+  <meta name="image" content="favicon.png">
+  <title>FRC 2021 | ER404</title>
 </head>
-<header class="nav">
-  <div class="dropdown">
-  <a href="../about">ABOUT US</a>
-  <a href="../sponsorship" class="active">SPONSORSHIP</a> 
-  <a href="../home">HOME</a>
-</header>
+<nav class="navbar is-fixed-top has-shadow" role="navigation" aria-label="main navigation">
+  <div class="navbar-brand">
+    <a class="navbar-item" href="/home">
+      <img src="favicon.png" width="36" height="36">
+    </a>
+    <a role="button" class="navbar-burger burger" aria-label="menu" aria-expanded="false" data-target="navMenu">
+      <span aria-hidden="true"></span>
+      <span aria-hidden="true"></span>
+      <span aria-hidden="true"></span>
+    </a>
+  </div>
+  <div id="navMenu" class="navbar-menu">
+    <div class="navbar-start">
+      <a class="navbar-item" href="/home">
+        Home
+      </a>
+
+      <a class="navbar-item" href="/sponsorship">
+        Sponsorships
+      </a>
+
+      <div class="navbar-item has-dropdown is-hoverable">
+        <a class="navbar-link">
+          About
+        </a>
+
+        <div class="navbar-dropdown">
+          <a class="navbar-item" href="/about">
+            Our Team
+          </a>
+          <a class="navbar-item">
+            FLL
+          </a>
+          <a class="navbar-item">
+            Donations
+          </a>
+          <hr class="navbar-divider">
+          <a target="_blank" class="navbar-item" href="https://github.com/ER404-FRC/ER404/issues">
+            Report an issue
+          </a>
+        </div>
+      </div>
+    </div>
+    <div class="navbar-end">
+      <div class="navbar-item">
+        <div class="buttons">
+          <a target="_blank" class="button" href="https://github.com/ER404-FRC/ER404">
+            <i class="fab fa-github"></i>
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+</nav>
+
 <body>
-  <div class="sponsortext">
-      <h1>Sponsor Us!</h1>
-      <p>Donations and sponsorships are what provide our team with the parts and registration for this amazing competition. Without people like you we wouldn't be able to be participate.<p>
-  </div>
-  <table style="width:30%; margin: auto;">
-    <tr>
-      <th></th>
-      <th>Gold Tier</th>
-      <th>Silver Tier</th>
-    </tr>
-    <tr>
-      <td>Large Logo on Team Shirt</td>
-      <td>&#10003;</td>
-      <td>&#10007;</td>
-    </tr>
-    <tr>
-      <td>Logo on Team Shirt Sleeve</td>
-      <td>&#10003;</td>
-      <td>&#10003;</td>
-    </tr>
-    <tr>
-      <td>Logo on Merchandise</td>
-      <td>&#10003;</td>
-      <td>&#10007;</td>
-    </tr>
-    <tr>
-      <td>Large Logo and Mention on Website</td>
-      <td>&#10003;</td>
-      <td>&#10007;</td>
-    </tr>
-    <tr>
-      <td>Small Logo on Website</td>
-      <td>&#10003;</td>
-      <td>&#10003;</td>
-    </tr>
-  </table>
-  <br>
-  <div class="sponsorshipdetails">
-    <h1>More Sponsorship Details</h1>
-  </div>
+  <section class="hero is-primary is-bold">
+    <div class="hero-body">
+      <div class="container">
+        <h1 class="title is-1">Sponsor Us!</h1>
+        <h2 class="subtitle is-3">Donations and sponsorships
+          from people like you are what provide our team with the parts and registration
+          for this amazing competition!</h2>
+        <a href="/about"><button class="button is-light">Learn More</button></a>
+      </div>
+    </div>
+  </section>
+  <section class="section">
+    <div class="table-container">
+      <div class="container">
+        <table class="table is-size-1 is-light is-narrow" style="border-radius: 10px; margin-left: auto; margin-right: auto;">
+          <thead>
+            <tr>
+              <th></th>
+              <th><strong>Gold Tier</strong></th>
+              <th class="is-light">Silver Tier</th>
+            </tr>
+          </thead>
+          <tr>
+            <th>Large Logo on Team Shirt</th>
+            <td>&#10003;</td>
+            <td>&#10007;</td>
+          </tr>
+          <tr>
+            <th>Logo on Team Shirt Sleeve</th>
+            <td>&#10003;</td>
+            <td>&#10003;</td>
+          </tr>
+          <tr>
+            <th>Logo on Merchandise</th>
+            <td>&#10003;</td>
+            <td>&#10007;</td>
+          </tr>
+          <tr>
+            <th>Large Logo and Mention on Website</th>
+            <td>&#10003;</td>
+            <td>&#10007;</td>
+          </tr>
+          <tr>
+            <th>Small Logo on Website</th>
+            <td>&#10003;</td>
+            <td>&#10003;</td>
+          </tr>
+        </table>
+      </div>
+    </div>
+  </section>
+  <script src="/all.js"></script>
+  <script src="/hamburger.js"></script>
 </body>
+
 </html>

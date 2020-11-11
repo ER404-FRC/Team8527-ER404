@@ -8,10 +8,11 @@
     <meta name="description" content="The official website for the ER404 FRC Team!">
     <meta name="image" content="favicon.png">
     <title>FRC 2021 | ER404</title>
+    <script src="http://code.jquery.com/jquery-3.5.1.min.js"></script>
 </head>
 <nav class="navbar is-fixed-top has-shadow" role="navigation" aria-label="main navigation">
   <div class="navbar-brand">
-    <a class="navbar-item" href="/home">
+    <a class="navbar-item" href="/">
       <img src="favicon.png" width="36" height="36">
     </a>
     <a role="button" class="navbar-burger burger" aria-label="menu" aria-expanded="false" data-target="navMenu">
@@ -22,15 +23,15 @@
   </div>
   <div id="navMenu" class="navbar-menu">
     <div class="navbar-start">
-      <a class="navbar-item" href="/">
+      <a id="home" class="navbar-item" href="/">
         Home
       </a>
 
-      <a class="navbar-item" href="/sponsorship">
+      <a id="sponsorship" class="navbar-item" href="/sponsorship">
         Sponsorships
       </a>
 
-      <div class="navbar-item has-dropdown is-hoverable">
+      <div id="about" class="navbar-item has-dropdown is-hoverable">
         <a class="navbar-link">
           About
         </a>
@@ -69,7 +70,7 @@
       <div class="container">
         <h1 class="title is-1">Welcome to the home of ER404!</h1>
         <h2 class="subtitle is-3">An aspiring FRC Team</h2>
-        <a href="/sponsorship"><button class="button is-info">Sponsor Us!</button></a>
+        <a id="home" href="/sponsorship"><button class="button is-info">Sponsor Us!</button></a>
         <a href="/about"><button class="button is-light">Learn More</button></a>
       </div>
     </div>

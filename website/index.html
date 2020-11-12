@@ -9,6 +9,17 @@
     <meta name="image" content="favicon.png">
     <title>FRC 2021 | ER404</title>
     <script src="http://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <style>
+    .has-background {
+        position: relative;
+        overflow: hidden;
+    }
+    .hero-background {
+        position: absolute;
+        object-fit: cover;
+        object-position: center center;
+    }
+    </style>
 </head>
 <nav class="navbar is-fixed-top has-shadow" role="navigation" aria-label="main navigation">
   <div class="navbar-brand">
@@ -71,7 +82,8 @@
         <a href="about"><button class="button is-light">Learn More</button></a>
       </div>
     </div>
-  </section>
+  </section  class="has-background">
+        <img class="hero-background is-transparent" src="background.JPG" />
   <div class="section">
     <div class="tile is-ancestor rellax" data-rellax-speed="10">
       <div class="tile is-vertical">

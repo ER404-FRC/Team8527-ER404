@@ -16,7 +16,7 @@ Our website consists of 3 pages: a home page, about page, and donate page. We wa
 Currently, the languages we are using for our website are:
 - [x] HTML
 - [x] CSS
-- [ ] JS
+- [x] JS
 - [ ] PHP
 
 ### CAD

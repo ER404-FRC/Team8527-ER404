@@ -3,17 +3,28 @@
 
 <head>
   <link rel="stylesheet" href="../bulmaswatch.min.css">
-  <link rel="icon" href="favicon.png">
+  <link rel="icon" href="images/favicon.png">
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="description" content="If you're looking to sponsor the ER404 FRC Team (Team 8527), you're at the right place!">
-  <meta name="image" content="favicon.png">
+  <meta name="image" content="images/favicon.png">
   <title>Sponsorship | ER404</title>
+  <style>
+    .has-background {
+        position: relative;
+        overflow: hidden;
+    }
+    .hero-background {
+        position: absolute;
+        object-fit: cover;
+        object-position: center center;
+    }
+  </style>
 </head>
 <nav class="navbar is-fixed-top has-shadow" role="navigation" aria-label="main navigation">
   <div class="navbar-brand">
     <a class="navbar-item" href="../">
-      <img src="favicon.png" width="36" height="36">
+      <img src="images/favicon.png" width="36" height="36">
     </a>
     <a role="button" class="navbar-burger burger" aria-label="menu" aria-expanded="false" data-target="navMenu">
       <span aria-hidden="true"></span>
@@ -63,6 +74,7 @@
 </nav>
 
 <body>
+
   <section class="hero is-primary is-bold">
     <div class="hero-body">
       <div class="container">
@@ -73,7 +85,9 @@
       </div>
     </div>
   </section>
-  <section class="section has-text-centered is-hidden-desktop">
+  <section class="has-background">
+    <img class="hero-background is-transparent" src="images/background.jpg" />
+    <div class="section has-text-centered is-hidden-desktop">
     <div class="container is-widescreen is-size-6 rellax" data-rellax-speed="2">
       <p class="subtitle is-3">Your contribution can be at one of these levels. We graciously 
         acknowledge your support with the following:</p>
@@ -113,8 +127,11 @@
         </tr>
       </table>
     </div>
+    </div>
   </section>
-  <section class="section has-text-centered is-hidden-touch">
+  <section class="has-background">
+      <img class="hero-background is-transparent" src="images/background.jpg" />
+  <div class="section has-text-centered is-hidden-touch">
     <div class="container is-widescreen is-size-3 rellax" data-rellax-speed="2">
       <p class="subtitle is-3">Your contribution can be at one of these levels. We graciously 
         acknowledge your support with the following:</p>
@@ -154,6 +171,7 @@
         </tr>
       </table>
     </div>
+  </div>
   </section>
   <script src="../all.js"></script>
   <script src="../hamburger.js"></script>
